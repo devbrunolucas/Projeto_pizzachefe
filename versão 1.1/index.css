@@ -8,18 +8,17 @@
 }
 body{background-color:#F9F1E1;
     font-size:1em;
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;}
+    font-family: Outfit;}
 /*Ids*/
 
 #area-cabecalho{
     position: fixed;
-    display:block;
     clear:both;
-    width: 1524px;;
+    width: 1424px;
     height: 78px;
     padding-top: 12px;
     background: #170902;
-
+    z-index: 1;
 }
 
 #area-logo{
@@ -32,24 +31,23 @@ body{background-color:#F9F1E1;
 
 #area-menu{
     height: 78px;
-    
-    margin-right: 10px;
+    margin-right: 8px;
     width: 700px;
     float:right;
-    padding-top:13px;
+    padding-top:16px;
 }
 
 #area-menu a{
     font-weight: bold;
     height: 90px;
-    font-size: 22px;
+    font-size: 18px;
     color:white;
     padding: 15px;
     text-decoration: none;
 }
 
 #area-menu a:hover{
-    padding: 38px;
+    padding: 41px;
     color:#5B8E48;
     background-color: white;
 }
@@ -64,14 +62,134 @@ body{background-color:#F9F1E1;
 }
 
 #session-meio{
+    padding:10px;
+    font-size: 50px;
+    font-weight: bold;
     background-color:#6E0707;
-    height: 423px;
+    height: 533px;
+    color:white;
 }
 
+#session-3{
 
-/*Classes*/
+    height: 533px;
+}
+
+#rodape{
+    height:233px;
+    background-color: #170902;
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#avaliacao{
+    color:white;
+    position: relative;
+    top:50px;
+    left:360px;
+    width:534px;
+    height:356px;
+    background-color:#5D8F4A;
+    border: #5D8F4A;
+    border-radius: 10px;
+    
+
+}
+#fazerpedido{
+    color:white;
+    background-color:#6E0707;
+    width:151px;
+    height: 56px;
+    font-size:20px;
+    font-weight: 600;
+    border:#0a0000;
+    border-radius:10px;
+    position:relative;
+    right:300px;
+    top:300px;
+    z-index: 0;
+}
+
+#imagem-pizza{
+    
+    float:right;
+    position:relative;
+    bottom:530px;
+    right:210px;
+   
+
+}
+
+#imagem-vetor-pizza{
+    position:relative;
+    float:right;
+    left:300px;
+    bottom:340px;
+
+}
+#imagem-estrela{
+    position: relative;
+    left:180px;
+    bottom:15px;
+}
 #text{
     float:left;
-    margin-top: 100px;
+    margin-top:100px;
     margin-left:100px;
 }
+
+#text2{
+    float:left;
+    margin-top:120px;
+    margin-left:100px;
+}
+#text3{
+    
+    font-size: 14px;
+    font-weight: 800px;
+    position:relative;
+    left: 105px;
+    padding:30px;
+    
+}
+#feedback{
+    width: 300px;
+    height: 40px;
+    border:none;
+    position:relative;
+    left:122px;
+    top:30px;
+}
+#avaliar{
+    color:white;
+    background-color:#170902;
+    width:151px;
+    height: 56px;
+    font-size:20px;
+    font-weight: 600;
+    border-radius:10px;
+    position:relative;
+    left:200px;
+    top:70px;
+    z-index: 0;
+}
+#imagem-logo-rodape{
+    padding-top:30px;
+    display:flex;
+    justify-content:center;
+    
+}
+#gmail-rodape{
+    margin-top: 80px;
+    margin-left:200px;
+}
+#politica-rodape{
+    margin-bottom:200px;
+    text-align: center;
+}
+/*Classes*/
+.clear{
+    clear:both;
+}
+
