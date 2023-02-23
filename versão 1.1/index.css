@@ -14,7 +14,7 @@ body{background-color:#F9F1E1;
 #area-cabecalho{
     position: fixed;
     clear:both;
-    width: 1424px;
+    width: 100%;
     height: 78px;
     padding-top: 12px;
     background: #170902;
@@ -81,6 +81,15 @@ body{background-color:#F9F1E1;
     color:white;
     font-size: 18px;
     font-weight: bold;
+    padding:40px;
+}
+
+#rodape a{
+    padding:10px 90px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    
 }
 
 #avaliacao{
@@ -180,13 +189,10 @@ body{background-color:#F9F1E1;
     justify-content:center;
     
 }
-#gmail-rodape{
-    margin-top: 80px;
-    margin-left:200px;
-}
-#politica-rodape{
-    margin-bottom:200px;
-    text-align: center;
+#rodape-credenciais{
+    margin-top:40px;
+    display:flex;
+    justify-content:center;
 }
 /*Classes*/
 .clear{
