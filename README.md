@@ -15,7 +15,7 @@
 
 
 ## Visão Geral
-    Este foi um projeto criado com HTML5 e CSS, basicamente criamos um protótipo de uma tela que mostre um cartão de NFT. Esse protótipo foi feito para ser responsivo para mobile até 375px e desktop até 1440.
+    Este foi um projeto criado com HTML5 e CSS, basicamente criei um protótipo da tela home de uma pizzaria fictícia.
 
 ### Captura de Tela
 
