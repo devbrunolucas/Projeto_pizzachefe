@@ -1,4 +1,4 @@
-# Frontend Mentor - NFT code component solution
+# Projeto Pizza Chefe
 
 
 ## Table of contents
@@ -19,7 +19,7 @@
 
 ### Captura de Tela
 
-![](/screenshot/solucao.png)
+![](/screenshot/imagem.png)
 
 ### Links
 
@@ -50,7 +50,7 @@
 
 ### Continuação do desenvolvimento
 
-  Ainda desejo continuar me refinando em HTML e CSS e futuramente JS. Ainda em CSS estou ansioso para aplicar propriedades do bootstrap.
+  Ainda desejo continuar me refinando em HTML e CSS e futuramente JS. Ainda em CSS estou ansioso para aplicar propriedades do bootstrap e resposividade.
 
 
 
